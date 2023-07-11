@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Playfair', serif;
+}
+
+/* Toda la pagina web */
+
+body{
+    background-image: url(../img/wallpaper-bean-coffee.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: cover;
+    opacity: 90%;
+}    
+
+h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.caja1{
+    background-color: #fff;
+    padding: 10px;
+    margin: 40px;
+    display: flow-root;
+}
+
+.caja3{
+    background-color: #fff;
+    padding: 10px;
+    margin: 40px;
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.final{
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.titulo-cafe{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+h1 h3{
+    font-family: 'Dancing Script';
+    font-family: 'Playfair', serif;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.container h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.container p{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.caja-titulo{
+    background-image: url(../img/titulo-cafe.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: cover;
+    opacity: 90%;
+    height: 100px;
+}    
+
+.tipos-cafe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img1, #img2{
+    border-radius: 10%;
+    width: 320px;
+    height: 250px;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+#mapa{
+    border-radius: 10%;
+    width: 320px;
+    height: 250px;
+    margin: 20px;
+    border: 5px solid black;
+    display: block;
+    float: left;
+}
+
+.vaso{
+    width: 40px;
+    height: 50px;
+}
+
+#img1{
+    float: right;
+}
+
+#img2{
+    float: left;
+}
+
+#img3{
+    float: right;
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+#img4{
+    float: left;
+    width: 300px;
+    height: 250px;
+    border-radius: 10%;
+    margin: 20px;
+    border: 5px solid black;    
+}
+
+#img5{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+@media (max-width: 800px){
+    #img1, #img2{
+        width: 180px;
+        height: 140px;
+        align-items: center;
+    }
+    #img3{
+        width: 120px;
+        height: 200px;
+        align-items: center;
+    }
+    #img4{
+        width: 200px;
+        height: 150px;
+        align-items: center;
+    }
+    #img5{
+        width: 200px;
+        height: 200px;
+        align-items: center;
+    }
+    #cup-logo{
+        width: 60px;
+        height: 100px;
+        align-items: center;
+
+    }
+    .menu li{
+        font-size: 11px;
+    }
+    footer{
+        width: 100%;
+    }
+    .final{
+        display: inline-block;
+    }
+    .video{
+        width: auto;
+        height: auto;
+        display:inline-block;
+    }
+}
+
+
+
+/* menu */
+
+#cup-logo{
+    height: 120px;
+    width: 120px;
+    margin-top: -40px;
+}
+
+#menu-cafe{
+    background-color: red;
+    border: 5px dotted black;
+    position: sticky;
+    top: 0;
+}
+
+.letras{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+#menu-cafe li a:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+.boton:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.formulario{
+    width: 400px;
+    background: rgb(235, 51, 51);
+    padding: 30px;
+    margin: 50px;
+    border: 4px;
+    color: white;
+}
+
+legend{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.controles{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 16px;
+    background-color: bisque;
+}
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: bisque;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+}
+
