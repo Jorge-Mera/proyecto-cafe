@@ -34,7 +34,6 @@ body{
             font-size: 50px;
             text-align: center;
             background-color: $color-titulo;
-            text-align: center;
             margin-top: 30px;
             font-size: 50px;
             font-family: 'Dancing Script';
@@ -67,19 +66,14 @@ body{
     background-color: #fff;
     padding: 10px;
     margin: 40px;
-    display: inline-block;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
+    @extend %center;
     border-radius: 5px;
 
 }
 
 .final{
-    text-align: center;
+    @extend %center;
     display: inline-flex;
-    align-items: center;
-    justify-items: center;
 }
 
 .titulo-cafe{
