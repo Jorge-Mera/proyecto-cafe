@@ -1,7 +1,8 @@
 header #cup-logo {
   height: 120px;
   width: 120px;
-  margin-top: -40px; }
+  margin-top: -40px;
+  fill: white; }
 
 .caja3, .final {
   text-align: center;
@@ -16,7 +17,7 @@ header #cup-logo {
   font-family: 'Playfair', serif; }
 
 header {
-  background-color: #d12c2c; }
+  background-color: #9a7b4f; }
   header #menu-cafe {
     border: 5px dotted black;
     position: sticky;
@@ -24,21 +25,23 @@ header {
 
 body {
   background-image: url(../img/wallpaper-bean-coffee.jpg);
+  background-color: #4b371c;
+  background-blend-mode: soft-light;
   background-repeat: no-repeat;
   width: auto;
   background-size: cover;
-  opacity: 90%; }
+  opacity: 85%; }
   body .container h1 {
-    color: black;
+    color: wheat;
     font-size: 50px;
     text-align: center;
-    background-color: gray;
+    background-color: #2e1503;
     margin-top: 30px;
     font-size: 50px;
     font-family: 'Dancing Script';
     font-family: 'Playfair', serif; }
   body .container .caja1 {
-    background-color: beige;
+    background-color: #e6b68b;
     padding: 10px;
     margin: 40px;
     display: flow-root;
@@ -53,7 +56,8 @@ body {
     text-align: justify;
     margin-top: 10px;
     font-size: 17px;
-    margin: 20px; }
+    margin: 20px;
+    font-size: 20px; }
 
 .caja3 {
   background-color: #fff;
@@ -68,7 +72,7 @@ body {
   align-content: center;
   justify-content: center;
   text-align: center;
-  background-color: aqua; }
+  background-color: #9a7b4f; }
 
 .tipos-cafe {
   display: flex;
@@ -109,34 +113,38 @@ body {
 
 #menu-cafe li a:hover {
   padding: 5px 10px;
-  background: #fff;
-  color: #000;
+  background: #2e1503;
+  color: bisque;
   border-radius: 10px;
   transition: 1s; }
 
 .boton:hover {
   padding: 5px 10px;
-  background: #fff;
-  color: #000;
+  background: #2e1503;
+  color: white;
   border-radius: 10px;
   transition: 0.5s; }
 
+.video {
+  background-color: bisque; }
+
 .formulario {
   width: 400px;
-  background: #eb3333;
+  background: #2e1503;
   padding: 30px;
   margin: 50px;
-  border: 4px;
-  color: white; }
+  border: solid 4px;
+  color: white;
+  border-color: bisque; }
 
 legend {
   font-size: 22px;
   margin-bottom: 20px;
-  color: black; }
+  color: bisque; }
 
 .controles {
   width: 100%;
-  background: #24303c;
+  background: black;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
@@ -171,7 +179,7 @@ footer {
   width: 100%;
   display: inline-block;
   text-align: center;
-  background-color: bisque; }
+  background-color: #9a7b4f; }
   footer .logo {
     width: 30px;
     height: 30px;
